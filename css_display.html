@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Latihan CSS Layout</title>
+
+	<style>
+		/* CSS Main */
+
+		* {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		body {
+			padding: 16px;
+			padding-bottom: 48px;
+		}
+
+		h2, p {
+			margin: 8px 0 16px;
+		}
+
+		li {
+			list-style-position: inside;
+			list-style-type: lower-latin;
+			line-height: 24px;
+		}
+
+		li.check {
+			background-color: yellow;
+			font-weight: bold;
+		}
+
+		code {
+			padding: 2px 4px;
+			font-family: monospace;
+			background-color: #1d1d1d;
+			color: white;
+			border-radius: 3px;
+		}
+
+		/* CSS Praktikum */
+
+		/**
+			...ISI BARIS KODEMU DISINI... 
+		**/
+
+	</style>
+</head>
+
+<body>
+	<hr><br>
+
+	<h1>Latihan soal</h1>
+	<p>Jawab pertanyaan berikut dengan cara memberikan <code>class="check"</code> pada pilihan jawaban!</p>
+
+	<hr><br>
+
+	<h2>X. Contoh soal pilihan ganda.</h2>
+	<ol>
+		<li>Pilihan jawaban 1.</li>
+		<li class="check">Pilihan jawaban 2. (check)</li>
+		<li>Pilihan jawaban 3.</li>
+		<li>Pilihan jawaban 4.</li>
+	</ol>
+
+	<br>
+
+	<h2>1. Apa yang dimaksud dengan property <code>display</code> pada CSS?</h2>
+	<ol>
+		<li>Adalah property untuk mengatur tampilan dari element.</li>
+		<li>Merupakan property untuk menyembunyikan suatu element.</li>
+		<li>Ialah property untuk mengatur perilaku suatu element saat element ditampilkan.</li>
+		<li>Semua jawaban benar.</li>
+	</ol>
+
+	<br>
+
+	<h2>2. Berikut merupakan daftar tag html yang secara default memiliki <code>display: block;</code>, kecuali ...</h2>
+	<ol>
+		<li> <code>&lt;p&gt;</code> </li>
+		<li> <code>&lt;div&gt;</code> </li>
+		<li> <code>&lt;img&gt;</code> </li>
+		<li> <code>&lt;h1&gt;</code> </li>
+	</ol>
+
+	<br>
+
+	<h2>3. Untuk menyembunyikan suatu element, maka syntax css yang perlu kita masukkan adalah ...</h2>
+	<ol>
+		<li> <code>display: hidden;</code> </li>
+		<li> <code>display: disabled;</code> </li>
+		<li> <code>display: unset;</code> </li>
+		<li> <code>display: none;</code> </li>
+	</ol>
+
+	<br>
+
+	<h2>4. Pernyataan yang benar dari <code>display: block;</code> dibawah ini yaitu ...</h2>
+	<ol>
+		<li>Element akan berbentuk kotak.</li>
+		<li>Element akan selalu membentuk baris baru dibawahnya</li>
+		<li>Width dan height element tidak dapat diatur.</li>
+		<li>Element akan menutupi element lainnya.</li>
+	</ol>
+
+	<br>
+
+	<h2>5. Salah satu perilaku dari <code>display: inline;</code> adalah ...</h2>
+	<ol>
+		<li>Setiap kali ditambahkan, element tidak akan membentuk baris baru.</li>
+		<li>Margin dan padding element tidak dapat diatur.</li>
+		<li>Element tersebut akan sejajar dengan element lainnya.</li>
+		<li>Susunan element akan seperti garis</li>
+	</ol>
+
+	<br>
+
+	<h2>6. Dari seluruh element inline, ada salah satu element yang width dan height-nya dapat kita atur, yaitu ...</h2>
+	<ol>
+		<li> <code>&lt;span&gt;</code> </li>
+		<li> <code>&lt;a&gt;</code> </li>
+		<li> <code>&lt;i&gt;</code> </li>
+		<li> <code>&lt;img&gt;</code> </li>
+	</ol>
+
+	<br>
+
+	<h2>7. Ada 2 cara untuk menyembunyikan suatu element, yaitu menggunakan <code>display: none;</code> dan
+		<code>visibility: hidden;</code>.
+		Apa perbedaan dari kedua property tersebut?
+	</h2>
+	<ol>
+		<li>
+			<code>display: block;</code> akan menghilangkan element dari tampilan web.
+			Sementara <code>visibility: hidden;</code> akan menyembunyikan element.
+		</li>
+		<li>
+			<code>display: block;</code> akan menyembunyikan element dari tampilan web.
+			Sementara <code>visibility: hidden;</code> akan menghilangkan element dari susunan html.
+		</li>
+		<li>
+			<code>display: block;</code> akan menghilangkan element dari tampilan web.
+			Sementara <code>visibility: hidden;</code> juga sama, namun masih menyisakan space yang dihasilkan dari
+			element tersebut.
+		</li>
+		<li>
+			<code>display: block;</code> akan membuat element tidak terlihat pada tampilan web.
+			Sementara <code>visibility: hidden;</code> membuat element menjadi transparan.
+		</li>
+	</ol>
+
+	<br>
+
+	<h2>8. Bagaimana caranya agar kita dapat mengatur width dan height dari suatu element, namun perilakunya tetap
+		seperti <code>display: inline;</code>?</h2>
+	<ol>
+		<li>Menambahkan <code>display: inline;</code> dan <code>display: block;</code> secara bersamaan.</li>
+		<li>Menggunakan <code>display: block;</code>.</li>
+		<li>Menambahkan property <code>width</code> dan <code>height</code>.</li>
+		<li>Menggunakan <code>display: inline-block;</code></li>
+	</ol>
+
+	<br>
+
+	<hr><br>
+
+	<h1>Praktik</h1>
+	<p>Selesaikan studi kasus berikut dengan mengedit file html ini!</p>
+
+	<hr><br>
+
+	<h2>9. Buatlah gambar-gambar berikut agar bisa tersusun kebawah</h2>
+	<p>note: gunakan class <code>.img</code> sebagai css selector.</p>
+
+	<!-- EDIT DISINI -->
+
+	<img src="https://source.unsplash.com/400x200/?programing" alt="gambar1" class="img">
+	<img src="https://source.unsplash.com/400x200/?programing" alt="gambar2" class="img">
+	<img src="https://source.unsplash.com/400x200/?programing" alt="gambar3" class="img">
+	<img src="https://source.unsplash.com/400x200/?programing" alt="gambar4" class="img">
+
+	<!-- EDIT SAMPAI DISINI -->
+
+	<br><br>
+	
+	<h2>10. Buatlah 5 element <code>&lt;div&gt;</code> seperti pada gambar berikut!</h2>
+	<img src="https://drive.google.com/uc?export=view&id=1XYaK6tW_Hj9lq9GhZ5gjfY3izthyAaWr" alt="1.1">
+
+	<!-- EDIT DISINI -->
+
+
+	
+	<!-- EDIT SAMPAI DISINI -->
+</body>
+
+</html>
